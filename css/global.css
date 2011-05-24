@@ -1,0 +1,175 @@
+/* RESET CSS START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* RESET CSS END */
+
+body {
+  background-color:#E0F6FF;
+  background:-moz-radial-gradient(50% 50% 360deg,circle closest-side,#00d8ff,#007eff);
+  background:-webkit-radial-gradient(50% 50%,circle closest-side,#00d8ff,#007eff);
+  font-family:"Times New Roman", Times, serif;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  font-size:100px;
+  letter-spacing:-5px;
+  margin-bottom:25px;
+}
+
+h2 {
+  font-size:32px;
+  margin-bottom:10px;
+}
+
+h3 {
+  font-size:26px;
+  text-align:center;
+  text-decoration:underline;
+  margin-bottom:20px;
+}
+
+p {
+  margin-bottom:1em;
+}
+
+.shadow {
+  -moz-box-shadow:5px 5px 5px #bbb;
+  -webkit-box-shadow:5px 5px 5px #bbb;
+  box-shadow:5px 5px 5px #bbb;
+}
+
+div#wrapper {
+  height:auto;
+  width:auto;
+  margin:0 auto;
+  padding:0;
+}
+
+div#container {
+  height:auto;
+  width:960px;
+  border:none;
+  margin:0 auto;
+  padding:0;
+}
+
+div#header {
+  background:url('/images/banner_blue.png');
+  height:150px;
+  width:960px;
+}
+
+div#tabs {
+  margin:25px 0 25px 0;
+  height:600px;
+}
+
+div#tabs a {
+  width:194px;
+}
+
+div.tabcontent {
+  height:500px;
+  padding:10px!important;
+  overflow-y:auto;
+}
+
+div#home {
+  font-family:"Times New Roman", Times, serif;
+}
+
+div#slider img {
+  width:800px;
+  height:328px;
+}
+
+div#slider {
+  margin-left:70px;
+}
+
+div#product table,th,td {
+  border:2px solid #000000;
+}
+
+div#product th,td {
+  padding:2px 5px;
+}
+
+div#product th {
+  background-color:#19ADE5;
+}
+
+tr.even {
+  background-color:#FFFFFF;
+}
+
+tr.odd {
+  background-color:#B1E1F4;
+}
+
+tr#inv_head {
+  cursor:pointer;
+}
+
+td.inv_name {
+  width:450px;
+}
+
+td.inv_brand {
+  width:150px;
+}
+
+td.inv_size {
+  width:200px;
+}
+
+td.inv_price {
+  width:100px;
+}
+
+div#contact {
+  text-align:center;
+}
