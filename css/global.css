@@ -45,12 +45,18 @@ table {
 /* RESET CSS END */
 
 body {
-  background-color:#E0F6FF;
-  background:-moz-radial-gradient(50% 50% 360deg,circle closest-side,#00d8ff,#007eff);
-  background:-webkit-radial-gradient(50% 50%,circle closest-side,#00d8ff,#007eff);
-  font-family:"Times New Roman", Times, serif;
-  margin:0;
-  padding:0;
+	background: #3982a1; /* Old browsers */
+	background: -moz-linear-gradient(left, #3982a1 0%, #366d84 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3982a1), color-stop(100%,#366d84)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #3982a1 0%,#366d84 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #3982a1 0%,#366d84 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(left, #3982a1 0%,#366d84 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3982a1', endColorstr='#366d84',GradientType=1 ); /* IE6-9 */
+	background: linear-gradient(left, #3982a1 0%,#366d84 100%); /* W3C */
+	font-family:"Times New Roman", Times, serif;
+	height:100%;
+	margin:0;
+	padding:0;
 }
 
 h1 {
@@ -89,30 +95,55 @@ div#wrapper {
 }
 
 div#container {
+  border-top:1px solid #DDD;
   height:auto;
-  width:960px;
-  border:none;
+  width:100%;
   margin:0 auto;
   padding:0;
 }
 
 div#header {
-  background:url('/images/banner_blue.png');
-  height:150px;
-  width:960px;
+	background: #606c88; /* Old browsers */
+	background: -moz-linear-gradient(left, #606c88 0%, #3f4c6b 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#606c88), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #606c88 0%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #606c88 0%,#3f4c6b 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(left, #606c88 0%,#3f4c6b 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
+	background: linear-gradient(left, #606c88 0%,#3f4c6b 100%); /* W3C */
+	border-bottom:1px solid #333;
+	height:150px;
+	width:100%;
+	margin:0;
+}
+
+img#banner{
+  position:relative;
+  top:-20px;
+  display:block;
+  margin:0 auto;
 }
 
 div#tabs {
-  margin:25px 0 25px 0;
+  margin:25px auto 10px auto;
   height:600px;
+  width:960px;
+}
+
+ul#tabnav {
+  position:absolute;
+  top:-74px;
+  right:20px;
+  background:none;
+  border:none;
 }
 
 div#tabs a {
-  width:194px;
+  width:187px;
 }
 
 div.tabcontent {
-  height:500px;
+  height:570px;
   padding:10px!important;
   overflow-y:auto;
 }

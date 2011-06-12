@@ -6,7 +6,7 @@
     <!--START CSS-->
     <link href="/css/global.css" rel="stylesheet" type="text/css" />
     <link href="/css/scrollable.css" rel="stylesheet" type="text/css" />
-    <link href="/css/custom-theme/jquery-ui-1.8.12.custom.css" rel="stylesheet" type="text/css" />
+    <link href="/css/custom-theme/jquery-ui-1.8.13.custom.css" rel="stylesheet" type="text/css" />
     <!--END CSS-->
     <!--START JS-->
     <script type="text/javascript" src="/js/jquery-1.5.1.min.js"></script>
@@ -30,10 +30,10 @@
   </head>
   <body>
     <div id="wrapper">
+		<div id="header"><img id="banner" src="/images/banner_white.png" alt="Young Quach Enterprises LTD" /></div>
       <div id="container">
-        <div id="header"></div>
-        <div class="ui-tabs shadow" id="tabs">
-          <ul>
+        <div class="ui-tabs" id="tabs">
+          <ul id="tabnav">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#product">Product</a></li>
@@ -41,7 +41,7 @@
           </ul>
           <div class="tabcontent ui-tabs-hide" id="home">
             <h2>Young Quach Enterprise LTD</h2>
-            <p><img src="/images/headline.png" alt="Asian Foods Importer" /></p>
+            <h1>Asian Foods Importer.</h1>
             <!-- root element for scrollable -->
             <div class="scrollable shadow" id="slider">   
               <!-- root element for the items -->
